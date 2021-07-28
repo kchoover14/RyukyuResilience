@@ -1,7 +1,7 @@
 # RyukyuResilience
 
 ## START HERE
-The About-the-Study.md markdown file provides a summary of the project with code chunk at the end (also see Scripts for code).
+A PDF summary of the project can be found here: https://rpubs.com/kchoover14/RyukyuResilience
 
 ## R SCRIPTS
 ### The scripts contain the full code used in the study (includes code not found in markdown).
