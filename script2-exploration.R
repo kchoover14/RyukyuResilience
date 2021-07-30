@@ -83,4 +83,3 @@ v4 <- ggplot(na.omit(ryukyu.co), aes(cribra.total, site, color = sex, shape=sex)
 png("f2-data visualization.png",  units="in", width=6, height=6, res=300)
 plot_grid(v1, v2, v3, v4, nrow=2)
 dev.off()
-
