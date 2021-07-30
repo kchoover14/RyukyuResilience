@@ -8,7 +8,8 @@ A PDF summary of the project can be found here: https://rpubs.com/kchoover14/Ryu
 script1a-data cleaning-dental.R
 script1b-data cleaning-cribra orbitalia.R
 script2-exploration.R
-script3-analysis.R
+script3-outlier removal.R
+script4-analysis.R
 
 ## DATA
 ### Raw data collected by MJH in Excel format with a tab for each site.
@@ -27,3 +28,4 @@ data-ryukyu-raw-dental-yatchi.csv
 data-ryukyu-clean-dental.csv (a clean dataset containing all variables)
 data-ryukyu-final-cribra orbitalia.csv (a simplified dataset containing only variables used for model building)
 data-ryukyu-final-dental.csv (a simplified dataset containing only variables used for model building)
+data-ryukyu-final-dental out.csv (a simplified dataset containing only variables used for model building and duplicates of hypo and calc but without outliers)
