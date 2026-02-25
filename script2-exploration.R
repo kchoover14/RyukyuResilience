@@ -58,7 +58,7 @@ ggplot(ryukyu_long, aes(sample = value)) +
   theme_minimal() +
   labs(title = "QQ Plots -- Distribution Check")
 
-ggsave("fig2-distribution dental pooled.png",
+ggsave("plot-distribution dental pooled.png",
        plot   = last_plot(),
        width  = 10,
        height = 6,
@@ -81,7 +81,7 @@ ggplot(ryukyu_long, aes(sample = value, color = sex, shape = sex)) +
   ) +
   scale_colour_viridis_d(begin = 0.15, end = 0.65)
 
-ggsave("figS1-distribution dental by site and sex.png",
+ggsave("plot-distribution dental by site and sex.png",
        plot   = last_plot(),
        width  = 10,
        height = 6,
@@ -128,7 +128,7 @@ ggplot(ryukyuCO |> filter(!is.na(cribra_total)),
   scale_fill_viridis_d(begin = 0.15, end = 0.65) +
   theme_classic()
 
-ggsave("figS2-distribution co.png",
+ggsave("plot-distribution co.png",
        plot   = last_plot(),
        width  = 10,
        height = 6,

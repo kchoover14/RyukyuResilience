@@ -83,7 +83,7 @@ write.csv(model_results, "results-glm-coefficients.csv", row.names = FALSE)
 ######################## RESIDUAL DIAGNOSTIC PLOTS
 
 # Supplemental figure -- titles retained for repo context
-png("figS3-diagnostics-all-models.png", width = 12, height = 12, units = "in", res = 300)
+png("plot-diagnostics-all-models.png", width = 12, height = 12, units = "in", res = 300)
 par(mfrow = c(4, 4))
 plot(hypo_model,      main = c("Hypoplasia",         "", "", ""))
 plot(calc_model,      main = c("Calculus",            "", "", ""))
@@ -120,7 +120,7 @@ p3 = plot_marginal(pred_att,  "Attrition (average)")
 p4 = plot_marginal(pred_co,   "Cribra Orbitalia (presence)")
 
 # labels = "AUTO" adds A, B, C, D panel labels
-ggsave("fig3-marginal-effects.png",
+ggsave("plot-marginal-effects.png",
        plot_grid(p1, p2, p3, p4, nrow = 2, ncol = 2, labels = "AUTO"),
        width  = 10,
        height = 8,
